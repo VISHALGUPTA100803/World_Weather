@@ -23,14 +23,7 @@ class _LocationScreenState extends State<LocationScreen> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    updateUI(widget
-        .locationWeather); // A State object's configuration is the corresponding StatefulWidget instance.
-    // This property is initialized by the framework before calling initState.
-    // If the parent updates this location in the tree to a new widget with the same runtimeType and Widget.key
-    // as the current configuration, the framework will update this property to refer to the new widget and then call
-    // didUpdateWidget, passing the old configuration as an argument.
-    // So a state object configuration is the corresponding stateful widget instance if we tap into widget we will get acces
-    // to locationscreen stateful widget
+    updateUI(widget.locationWeather);
   }
 
   void updateUI(dynamic weatherData) {
@@ -40,14 +33,12 @@ class _LocationScreenState extends State<LocationScreen> {
         weatherIcon = 'Error';
         cityname = 'unable to get weather data';
         message = '';
-        return; // it will end our function updateUI prematurely and prevent it from continuing
-        // on to the next
+        return;
       }
-      double temp =
-          weatherData['main']['temp']; // main.temp (copy path from json)
+      double temp = weatherData['main']['temp'];
       temperature = temp.toInt();
 
-      var condition = weatherData['weather'][0]['id']; // weather[0].id
+      var condition = weatherData['weather'][0]['id'];
       weatherIcon = weather.getWeatherIcon(condition);
 
       cityname = weatherData['name']; //
@@ -139,7 +130,3 @@ class _LocationScreenState extends State<LocationScreen> {
     );
   }
 }
-
-// double temperature = decodedData['main']['temp']; // main.temp (copy path from json)
-// // int condition = decodedData['weather'][0]['id']; // weather[0].id
-// // String cityname = decodedData['name']; // name
