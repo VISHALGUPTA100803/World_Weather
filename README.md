@@ -1,16 +1,28 @@
-# weather
+# WORLD_WEATHER
 
 A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+I have build a weather app. In this app you'll be able to find out the live weather data in the current location of the device as well as the weather for any city you can think of!
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![](https://github.com/VISHALGUPTA100803/World_Weather/blob/main/clima-demo.gif)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
+In this app i have used <br>
+async and await. <br>
+Futures and how to work with them.  <br>
+Network with the Dart http package.  <br>
+APIs and  get data from the internet.  <br>
+JSONs and parse them using the Dart convert package.  <br>
+Passed data forwards and backwards between screens using the Navigator.  <br>
+Handle exceptions in Dart using try/catch/throw.  <br>
+Lifecycle of Stateful Widgets.  <br>
+Geolocator package to get live location data for both iOS and Android.  <br>
+TextField Widget to take user input.  <br>
+
+
+
