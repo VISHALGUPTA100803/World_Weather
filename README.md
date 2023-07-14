@@ -7,7 +7,7 @@ A new Flutter project.
 I have build a weather app. In this app you'll be able to find out the live weather data in the current location of the device as well as the weather for any city you can think of!
 
 
-![](https://github.com/VISHALGUPTA100803/World_Weather/blob/main/clima-demo.gif)
+
 
 
 
@@ -23,6 +23,9 @@ I have used <br>
 8- Lifecycle of Stateful Widgets.  <br>
 9- Geolocator package to get live location data for both iOS and Android.  <br>
 10- TextField Widget to take user input.  <br>
+
+
+![](https://github.com/VISHALGUPTA100803/World_Weather/blob/main/clima-demo.gif)
 
 
 
