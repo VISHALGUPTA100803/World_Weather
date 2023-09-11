@@ -8,6 +8,8 @@ I have build a weather app. In this app you'll be able to find out the live weat
 
 
 
+[Download the APK from our Releases page here](https://github.com/VISHALGUPTA100803/World_Weather/releases/tag/v1.0.0)
+
 
 
 
