@@ -26,8 +26,12 @@ I have used <br>
 9- Geolocator package to get live location data for both iOS and Android.  <br>
 10- TextField Widget to take user input.  <br>
 
+https://github.com/VISHALGUPTA100803/World_Weather/assets/96491059/fdd683e3-c6c1-48bd-9f07-471169f5b54b
 
-![](https://github.com/VISHALGUPTA100803/World_Weather/blob/main/clima-demo.gif)
+
+
+
+
 
 
 
